@@ -1,0 +1,59 @@
+<article class="my-body">
+    <header>
+        <div class="page-header">
+            <h1  class="single-title" style="font-size: xx-large;" itemprop="name">{{ev?.hostingObject?.name}}</h1>
+        </div>
+    </header> 
+    <section>
+        <div class="row">
+            <div class=" col-sm-6 ">
+                <img id="imageElement" width="65%" 
+                         
+                alt=" {{ev?.hostingObject?.name}}"  
+                >
+            </div>
+            <div class="col-sm-6 "  style="display: flex; flex-wrap: wrap; align-items: center;">
+                <ul style="list-style: none ; font-size: x-large;">
+                    <li itemprop="address" style="padding-bottom: 2rem;" >
+                        <i class="bi bi-map"></i>
+                        <span>
+                            {{ev?.hostingObject?.adress}} </span>
+                        </li>
+                        <li >
+                            <i class="bi bi-clock"></i>
+                            <span class="custom-icon i-clock"></span> <span>{{ev?.hostingObject?.hours}}</span></li>
+                        
+                    </ul>
+                </div>
+        </div>
+
+            <div class="program-wrap" style="background-color: rgba(255, 98, 0, 0.666);">
+                
+                    <h2 style=" padding-top: 1rem; text-align: center;">{{'objectsprograme' | translate}} </h2>
+            
+                 
+                <div  *ngIf="ev">
+                    <mat-list style="display:flex; flex-direction: column; flex-wrap: wrap; align-items: center;" >
+                        <mat-list-item *ngFor="let e of events$| async " [class.selected]="e === ev" (click)="funkcija(e)" [class.notSelected]="e!==ev" style="width: 100%;height: 100%; margin-bottom: 2rem; align-items: center;" id="{{e.eventName}}" >
+                            {{e.eventName}}
+                            <br>
+                            {{formatDate(e.eventDate)}}
+                            <br>
+               
+                            <button class="btn btn-primary" style="margin-left: auto; background-color: green; width: 20rem;" *ngIf="ev===e" name="button" (click)= "funkcija(e)" href="#" routerLink="/hostingObject/{{e.hostingObject?.id}}/rezervacija/{{e.id}}">  {{'reservation' | translate}}</button>
+                        </mat-list-item>
+                        
+                    </mat-list>
+                </div>
+                
+                
+        </div>
+    </section>
+
+
+    <div class="mapa">
+        <div class="full" id="map">
+        </div>
+    </div>
+</article>
+

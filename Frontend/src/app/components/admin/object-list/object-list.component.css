@@ -1,0 +1,6 @@
+.selected{
+    background-color: red;
+}
+input.ng-pristine.ng-touched.ng-invalid {
+    border: 1px solid red;
+}

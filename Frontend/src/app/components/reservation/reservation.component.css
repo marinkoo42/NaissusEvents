@@ -1,0 +1,38 @@
+.container{
+    
+
+    width: fit-content;
+    background-color: white;
+    color: black;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+.btn{
+    background-color: rgb(205, 105, 12);
+    color:white;
+    font-size: 20px;
+}
+
+
+
+mat-form-field{
+    color: white;
+}
+
+.mat-select-placeholder{
+    color: white;
+    -webkit-text-fill-color:white;
+}
+
+::ng-deep .mat-form-field-hide-placeholder .mat-select-placeholder{
+    color: white;
+    -webkit-text-fill-color:white;
+}
+        
+

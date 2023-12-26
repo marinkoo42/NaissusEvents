@@ -1,0 +1,13 @@
+<div class="sve">
+    <div class="container mt-2">
+        <div class="row pt-2 pb-2 justify-content-center">
+                <div *ngFor="let ev of events$| async"  href="#" routerLink="/home" class="col-md-4" style="padding: 2rem;padding-bottom: 4rem;">
+
+                        <app-event  [ev]= "ev" (onClick)="selectedEvent($event)" href="#" routerLink="/hostingObject/{{ev.hostingObject.id}}"></app-event>
+
+                </div>
+        </div>
+    </div>
+</div>
+
+

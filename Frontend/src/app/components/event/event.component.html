@@ -1,0 +1,12 @@
+<div *ngIf = "ev" (click) = "clicked()" class="card">
+    <img id="imageElement{{ev.id}}" class="card-img-top" alt=" " >
+    <div class="card-body">
+        <h3 class="card-title">{{ev?.eventName}}</h3>
+        <p class="card-text">{{formatDate(ev?.eventDate ?? "")}}</p>
+        <p class="card-text">{{ev?.hostingObject?.name}}</p>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,57 @@
+
+    <body id="my-body">
+
+    <div class="container">
+    
+        <form [formGroup]="loginForm" novalidate (ngSubmit)="logIn()" class="form">
+            <div class="form-group">
+                <label>{{'username' | translate}}</label>
+                <input formnovalidate class="form-control" formControlName="username" type="text">
+            </div>
+            <div *ngIf="loginForm.controls['username'].invalid && (loginForm.controls['username'].dirty || loginForm.controls['username'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="loginForm.controls['username'].errors?.['required']">
+                {{'requsername' | translate}}
+                </div>
+                <div *ngIf="loginForm.controls['username'].errors?.['minlength']">
+                    {{'musthave5chars' | translate}}
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>{{'password' | translate}}</label>
+                <input class="form-control" formControlName="password" type="password" hasCapitalCase hasNumber hasSpecial
+                    hasSmallCase>
+            </div>
+            <div *ngIf="loginForm.controls['password'].invalid && (loginForm.controls['password'].dirty || loginForm.controls['password'].touched)"
+                class="alert alert-danger" >
+                <div *ngIf="loginForm.controls['password'].errors?.['required']">
+                    {{'passwordisrequired' | translate}}
+                </div>
+                <div *ngIf="loginForm.controls['password'].errors?.['hasNumber']">
+                    {{'musthaveatleast1number' | translate}}
+                </div>
+                <div *ngIf="loginForm.controls['password'].errors?.['hasSmallCase']">
+                    {{'musthaveatleast1lowercasecharacter' | translate}}
+                </div>
+                <div *ngIf="loginForm.controls['password'].errors?.['hasCapitalCase']">
+                    {{'musthaveatleast1uppercasecharacter' | translate}}
+                </div>
+                <div *ngIf="loginForm.controls['password'].errors?.['hasSpecial']">
+                    {{'musthaveatleast1specialcharacter' | translate}}
+                </div>
+                <div *ngIf="loginForm.controls['password'].errors?.['minlength']">
+                    {{'musthaveatleast6characters' | translate}}
+                </div>
+            </div>
+            <br>
+            <button type="submit" [disabled]="loginForm.pristine || loginForm.invalid" class="btn" value="LogIn">
+                {{'login' | translate}}
+            </button>
+
+            
+
+        </form>
+    </div>
+
+    </body>

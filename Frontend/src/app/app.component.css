@@ -1,0 +1,41 @@
+ 
+#my-html,
+#my-body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: auto;
+
+}
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+}
+
+
+
+#my-html{
+
+    background-image: linear-gradient(180deg, #747070 0%, #282828 74%);
+
+}
+
+
+#my-body{
+    background-color: transparent;  
+}
+
+
+
+
+.container {
+ 
+    padding-top: 70px; 
+   margin: 0px 0px 0px 0px;
+    
+}
+

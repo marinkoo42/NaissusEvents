@@ -1,0 +1,70 @@
+
+<h1>Lista objekata </h1>
+
+
+<div>
+    <button *ngIf="!dodavanje" (click)="dodavanjeFun()">dodaj objekat</button> 
+    <div *ngIf="dodavanje">
+        <form [formGroup]="objectListForm" novalidate (ngSubmit)="createObject()" class="form">
+            <div class="form-group">
+                <label>Name</label>
+                <input formnovalidate class="form-control" formControlName="name" type="text">
+            </div>
+            <div *ngIf="objectListForm.controls['name'].invalid && (objectListForm.controls['name'].dirty || objectListForm.controls['name'].touched)"
+                class="alert alert-danger">
+                <div *ngIf="objectListForm.controls['name'].errors?.['required']">
+                    Name is required.
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Adresa</label>
+                <input formnovalidate class="form-control" formControlName="address" type="text">
+            </div>
+            <div class="form-group">
+                <label>Telefon</label>
+                <input formnovalidate class="form-control" formControlName="phone" type="text">
+            </div>
+            <div *ngIf="objectListForm.controls['phone'].invalid && (objectListForm.controls['phone'].dirty || objectListForm.controls['phone'].touched)"
+            class="alert alert-danger">
+            <div  *ngIf="objectListForm.controls['phone'].errors?.['required']">
+                Phone number is required.
+            </div>
+            <div *ngIf="objectListForm.controls['phone'].errors?.['minlength']">
+                Phone number length minimum is 10.
+            </div>
+            <div *ngIf="objectListForm.controls['phone'].errors?.['pattern']">
+                Must enter numbers.
+            </div>
+        </div>
+            <div class="form-group">
+                <label>Radno vreme</label>
+                <input formnovalidate class="form-control" formControlName="hours" type="text">
+            </div>
+       
+
+        <button (click)="dodavanjeFun()">Cancel</button>
+        <button type="submit">Save</button>
+        </form>
+    </div>
+</div>
+<br>
+<div>
+    <button class="btn btn-primary w-10" routerLink="/admin/user-edit">Pregled korisnika </button> 
+</div>
+
+
+
+<div *ngIf="hostingObjects$">
+ 
+    <div class="container mt-2">
+        <div class="row pt-2 pb-2 justify-content-center">
+            <div *ngFor="let ho of hostingObjects$" href="#"  style="padding: 2rem;max-width: 14rem" class="col-md-4">
+    
+                <app-hosting-object-card [hostingObject]="ho" (onClick)="selectedHostingObject($event)" href="#" routerLink="/admin/objectEdit/{{ho.id}}"></app-hosting-object-card>
+    
+            </div>
+        </div>
+    </div>
+
+
+</div>

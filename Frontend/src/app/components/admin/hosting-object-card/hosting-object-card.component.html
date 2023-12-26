@@ -1,0 +1,7 @@
+<div *ngIf="hostingObject" (click)="clicked()" class="card">
+    <img id="imageElement{{hostingObject.id}}" class="card-img-top" alt=" ">
+    <div class="card-body">
+        <h3 class="card-title">{{hostingObject?.name}}</h3>
+        <p class="card-text">{{hostingObject?.adress}}</p>
+    </div>
+</div>

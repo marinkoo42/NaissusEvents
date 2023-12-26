@@ -1,0 +1,27 @@
+.full{
+    width:20rem;
+    height: 20rem;
+}
+.formica
+{
+        width: fit-content;
+        background: transparent;
+        color: white;
+        align-items: center;
+        background: transparent;
+        border-color: rgb(205, 105, 12);
+        border-style: solid;
+        border-radius: 10px;
+        padding: 10px;
+        
+    
+}
+.btn
+{
+    background-color: rgb(205, 105, 12);
+    color:white
+}
+
+.sve{
+    padding-bottom: 50px;
+}

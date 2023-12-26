@@ -1,0 +1,25 @@
+
+input.ng-pristine.ng-touched.ng-invalid {
+    border: 1px solid red;
+}
+input[type="text"] , input[type="password"] ,input[type="email"]{
+    background-color: rgb(231, 173, 118);
+ }
+.container{
+   
+    background: transparent;
+    color: white;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+.btn {
+    background-color: rgb(205, 105, 12);
+    color:white;
+    font-size: 20px;
+}

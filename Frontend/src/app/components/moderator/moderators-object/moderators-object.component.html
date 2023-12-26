@@ -1,0 +1,122 @@
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; ">
+
+    <div class="formica" style="margin-bottom: 2rem;"> 
+        <form *ngIf="forma" [formGroup]="forma" style="padding-bottom: 3rem; padding-right: 3rem; ">
+        <br>
+        <label>Ime lokala</label>
+        <input type="text" formControlName="name">
+        <br>
+        <label>Adresa lokala</label>
+        <input type="text" formControlName="address" placeholder="Ulica 00, Grad">
+        <br>
+        <label>Telefon lokala</label>
+        <input type="text" formControlName="phone">
+        <br>
+        <label>Radno vreme</label>
+        <input type="text" formControlName="hours">
+        <br>
+        <button class="btn" (click)="enableSectionForma(forma.disabled)"> {{forma.disabled ? 'Edit': 'Save'}}</button>
+
+
+    </form>
+</div>
+
+
+    <div style="padding-bottom: 2rem;">
+    <div class="full"  id="map">
+    </div>
+    </div>
+
+
+    <div class="formica" style="padding-bottom: 2rem;">
+        <div *ngIf="!imaSliku">
+            <input  type="file" (change)="uploadFile($event)">
+            <button class="btn" class="btn" (click)="dodajSliku()"> dodaj sliku</button>
+        </div>
+        <button class="btn" *ngIf="imaSliku" (click)="obrisiSliku()">Obrisi sliku</button>
+        
+        <br>
+
+        <div>
+            <img id="imageElementObj" style='display:block; width:100px;height:100px;'>
+        </div>
+
+    </div>
+
+</div>
+<div style="padding-top: 2rem;">
+    
+    <div class="formica">
+    <button class="btn" *ngIf="!dodavanje" (click)="dodavanjeFun()">Dodaj sto</button>
+    <br>
+
+    <form  *ngIf="dodavanje" novalidate [formGroup]="dodajStoForma" (ngSubmit)="createTable()">
+        <div>
+            <select (change)="changeTip($event)" formControlName="tip">
+                <option value="">Izaberi tip</option>
+                <option *ngFor="let t of Tip">
+                    {{ t }}
+                </option>
+            </select>
+    
+            <br>
+            <input type="text" formControlName="kapacitet" placeholder="kapacitet">
+
+            <br>
+            <button (click)="dodavanjeFun()">
+                Cancel
+            </button>
+            <br>
+            <button type="submit" class="btn btn-danger btn-lg btn-block">
+                Submit
+            </button>
+        </div>
+    </form>
+    <br>
+    <button class="btn" routerLink="/moderator/edit-tables/{{hostingObject?.id}}"> Prikazi stolove</button>
+    </div>
+</div>
+
+
+
+<div class="sve">
+    <div class="container mt-2" style="color: white;">
+        Eventi
+        <button class="btn" (click)="dodajEvent()">Dodaj event</button>
+        <form *ngIf="dodavanjeEventa" novalidate [formGroup]="dodajEventForma" (ngSubmit)="createEvent()">
+            <div>
+
+                <label>Ime dogadjaja</label>
+                <input type="text" formControlName="imeDogadjaja">
+                <br>
+                <label>Opis dogadjaja</label>
+                <input type="text" formControlName="opisDogadjaja">
+                <br>
+                <label>Vreme</label>
+                <input type="text" formControlName="time" placeholder="HH:mm:ss">
+                <br>
+                <label>Datum</label>
+                <input type="text" formControlName="date" placeholder="yyyy-MM-dd">
+                <br>
+
+                <button (click)="dodajEvent()">
+                    Cancel
+                </button>
+                <br>
+                <button type="submit" class="btn btn-danger btn-lg btn-block">
+                    Submit
+                </button>
+            </div>
+        </form>
+        <div class="row pt-2 pb-2 justify-content-center">
+            <div *ngFor="let e of events" href="#" routerLink="/home" class=" col-8 col-md-4  col-sm-4"
+                style="color: black; margin-bottom: 60px;">
+                <app-event [ev]="e" href="#" routerLink="/moderator/event-edit/{{e.id}}" (click)="selektujEvent(e)">
+                </app-event>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div></div> -->

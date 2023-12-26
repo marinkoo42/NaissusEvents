@@ -1,0 +1,45 @@
+<body id="my-body">
+    <div *ngIf="korisnici$  as korisnici">
+        <div>
+            <h1>Uredjivanje korisnika</h1>
+        </div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Br.</th>
+                        <th scope="col">Username</th>
+                        <th scope="col">Email</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let kor of korisnici$; let i = index">
+                        <th scope="row">{{i+1}}
+                        </th>
+                        <td>{{kor.userName}}</td>
+                        <td>{{kor.email}}</td>
+                        <td>
+                            <button type="button" class="btn btn-primary" (click)="izmeni(kor)" routerLink="/admin/user-edit/user/{{kor.id}}"><i class="far fa-eye"></i> Edit</button>
+                        </td>
+                        <td >
+                            <button type="button" class="btn btn-danger" (click)="obrisi(kor)">Obrisi<i class="far fa-trash-alt"></i></button>
+                        </td>
+
+                    </tr>
+                    
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+        
+       
+    </div>
+</body>

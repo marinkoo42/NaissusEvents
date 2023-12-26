@@ -1,0 +1,75 @@
+<div>
+    <button (click)="obrisiEvent()"> Obrisi event</button>
+</div>
+
+<div *ngIf="ev">
+    
+        <div *ngIf="!imaSliku">
+        <input type="file" (change)="uploadFile($event)">
+        <button (click)="dodajSliku()"> dodaj sliku</button>
+        </div>
+        
+        
+        
+        
+        
+        <button *ngIf="imaSliku" (click)="obrisiSliku()">Obrisi sliku</button>
+        
+            
+        <div>
+            <img id="imageElement" style='display:block; width:100px;height:100px;'>
+        </div>
+    
+    <form *ngIf="forma" [formGroup]="forma" style="color:white">
+        <br>
+        <label>Ime Eventa</label>
+        <input type="text" formControlName="name">
+        <br>
+        <label>Vreme Eventa</label>
+        <input type="text" formControlName="time" placeholder="HH:mm:ss">
+        <br>
+        <label>Datum Eventa</label>
+        <input type="text" formControlName="date" placeholder="dd-MM-yyyy">
+        <br>
+        <label>Opis Eventa</label>
+        <input type="text" formControlName="description">
+    
+        <button (click)="enableSection(forma.disabled)"> {{forma.disabled ? 'Edit': 'Save'}}</button>
+    
+    </form>
+</div>
+
+
+<div class="container" >
+    <h2 style="padding: 0;">Rezervacije</h2>
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered" >
+                <thead>
+                    <tr>
+                        <th scope="col">Br.</th>
+                        <th scope="col">Username</th>
+                        <th scope="col">Tip stola</th>
+                        <th scope="col">Kapacitet</th>
+                       
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let rez of rezervacije; let i = index">
+                        <th scope="row">{{i+1}}
+                        </th>
+                        <td>{{rez.myUser.userName}}</td>
+                        <td>{{tipToStr(rez.table.tableType)}}</td>
+                        <td>{{rez.table.tableCapacity}}</td>
+                         <td style="justify-content: center;  height: 100%; width: 100%;">
+                            <button  class="btn btn-primary" (click)="obrisiRezervaciju(rez.id)"> Obrisi </button>
+                        </td>
+
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

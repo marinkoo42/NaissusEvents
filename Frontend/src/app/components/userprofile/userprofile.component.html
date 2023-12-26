@@ -1,0 +1,117 @@
+
+<div class="sve">
+<div class="container  mt-5 mb-5" style="max-width: 50rem;" >
+    
+        
+        <div>
+            <div class="p-3 py-5 border-box">
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <h3 style="text-align:center" class="text-right">{{'profilesetting' | translate}}</h3>
+                </div>
+                <form *ngIf="forma" [formGroup]="forma">
+                <div class="row mt-2">
+                    <div class="col-md-6"><label class="labels">{{'name' | translate}}</label><input type="text" class="form-control " formControlName="name"
+                            placeholder="first name" value=""></div>
+                            <div *ngIf="forma.controls['name'].invalid && (forma.controls['name'].dirty || forma.controls['name'].touched)"
+                    class="alert alert-danger">
+                    <div *ngIf="forma.controls['name'].errors?.['required']">
+                        {{'nameisrequired' | translate}}
+                    </div>
+                        <div *ngIf="forma.controls['name'].errors?.['pattern']">
+                            {{'onlycharacter' | translate}}
+                        </div>
+                    </div>
+                <div class="col-md-6"><label class="labels">{{'lastname' | translate}}</label><input type="text" class="form-control" formControlName="lastName"
+                            value="" placeholder="last name"></div>
+                </div>
+                <div *ngIf="forma.controls['lastName'].invalid && (forma.controls['lastName'].dirty || forma.controls['lastName'].touched)"
+            class="alert alert-danger">
+            <div *ngIf="forma.controls['lastName'].errors?.['required']">
+                {{'lastnameisrequired' | translate}}
+            </div>
+            <div *ngIf="forma.controls['lastName'].errors?.['pattern']">
+                {{'onlycharacter' | translate}}
+            </div>
+        </div>
+                <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels">{{'phonenumber' | translate}}</label><input type="text" formControlName="phone"
+                            class="form-control" placeholder="enter phone number" value=""></div>
+                    
+                            <div *ngIf="forma.controls['phone'].invalid && (forma.controls['phone'].dirty || forma.controls['phone'].touched)"
+                            class="alert alert-danger">
+                            <div  *ngIf="forma.controls['phone'].errors?.['required']">
+                                {{'phonenumberisrequired' | translate}}
+                            </div>
+                            <div *ngIf="forma.controls['phone'].errors?.['minlength']">
+                               {{'phonenumberlenghtminimumis10' | translate}}
+                            </div>
+                            <div *ngIf="forma.controls['phone'].errors?.['pattern']">
+                                {{'mustenternumbers' | translate}}
+                            </div>
+                        </div>
+                    
+                    
+         <div class="col-md-12"><label class="labels">{{'email' | translate}}</label><input type="text" class="form-control" formControlName="email"
+                            placeholder="enter email" value=""></div>
+                            <div *ngIf="forma.controls['email'].invalid && (forma.controls['email'].dirty || forma.controls['email'].touched)"
+                            class="alert alert-danger">
+                            <div *ngIf="forma.controls['email'].errors?.['required']">
+                                {{'emailisrequired' | translate}}
+                            </div>
+                            <div *ngIf="forma.controls['email'].errors?.['email']">
+                               {{'mustenteravalidemail' | translate}}
+                            </div>
+                        
+
+                </div></div>
+                <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button" (click)="enableSection(forma.disabled)">{{funEditSave()|translate}}
+                </button></div>
+            
+                    </form>
+                </div>
+            
+        </div>
+    </div>
+
+<div style="padding-bottom: 5rem;">        
+        <div class="tabela" *ngIf="postojeRezervacije">
+            <h1 style="color: black;text-align: center;">{{'myreservations' | translate}}</h1>
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">{{'num.' | translate}}</th>
+                                <th scope="col">{{'event' | translate}}</th>
+                                <th scope="col">{{'date' | translate}}</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let rez of rezervacije$ | async; let i = index">
+                                <th scope="row">{{i+1}}
+                                </th>
+                                <td>{{rez.event.eventName}}</td>
+                                
+                                <td>{{formatDate(rez.event.eventDate)}}</td>
+                                
+           
+                                <td>
+                                    <button type="button" class="btn btn-danger" (click)="deleteReservation(rez)">{{'deletereservation'|translate}}</button>
+                                </td>
+        
+                            </tr>
+        
+        
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+                    
+       
+</div>
+   
+

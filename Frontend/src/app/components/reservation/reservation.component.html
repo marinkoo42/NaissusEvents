@@ -1,0 +1,49 @@
+
+
+<div class="container" *ngIf="ev">
+
+    <h2 style="text-align: center;">
+        {{'reservationfor' | translate}} {{ev.eventName}}, {{'date' | translate}} {{formatDate(ev.eventDate)}}
+    </h2>
+
+    <div style="text-align: center;">
+    
+    <br>
+        <div style="font-size: 20px;">
+            {{'logedinuser' | translate}} {{ulogovanKorisnik?.name}}
+        </div>
+    <br>
+    
+    <mat-form-field >
+        
+        <mat-select class="polje" placeholder="{{'choosetabletype' | translate}}" (selectionChange)="izabranTipStola($event.value)" style="font-style: white;">
+
+
+            <mat-option *ngFor="let tip of listaTipova" [value]="tip"  >
+                
+                
+                {{tipToStr(tip) | translate}}
+                
+
+            </mat-option>
+        </mat-select>
+    
+    </mat-form-field>
+
+
+    <br>
+
+    <mat-form-field>
+        <mat-select placeholder=" {{'choosenumberofpeople' | translate}}" (selectionChange)="izabranBrojMesta($event.value)" >
+            <mat-option *ngFor="let brMesta of listaBrojMesta" [value]="brMesta">
+    
+                {{brMesta}}
+    
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <br>
+    <br>
+    <button class="btn"   (click)="rezervisi()">  {{'reservation' | translate}}</button>
+</div>
+</div>

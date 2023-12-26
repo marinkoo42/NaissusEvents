@@ -1,0 +1,144 @@
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\appsettings.Development.json
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\appsettings.json
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.exe
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.deps.json
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.runtimeconfig.json
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.runtimeconfig.dev.json
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\ref\NaissusEvents.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.pdb
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.csproj.AssemblyReference.cache
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.AssemblyInfoInputs.cache
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.AssemblyInfo.cs
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.csproj.CoreCompileInputs.cache
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.MvcApplicationPartsAssemblyInfo.cs
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.MvcApplicationPartsAssemblyInfo.cache
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\staticwebassets\NaissusEvents.StaticWebAssets.Manifest.cache
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\staticwebassets\NaissusEvents.StaticWebAssets.xml
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\scopedcss\bundle\NaissusEvents.styles.css
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.RazorTargetAssemblyInfo.cache
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.csproj.CopyComplete
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\ref\NaissusEvents.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.pdb
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.genruntimeconfig.cache
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Humanizer.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\appsettings.json
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.exe
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.deps.json
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.runtimeconfig.json
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.runtimeconfig.dev.json
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\ref\NaissusEvents.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\NaissusEvents.pdb
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Humanizer.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.csprojAssemblyReference.cache
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.AssemblyInfoInputs.cache
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.AssemblyInfo.cs
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.csproj.CoreCompileInputs.cache
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\staticwebassets\NaissusEvents.StaticWebAssets.Manifest.cache
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\staticwebassets\NaissusEvents.StaticWebAssets.xml
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\scopedcss\bundle\NaissusEvents.styles.css
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.RazorTargetAssemblyInfo.cache
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.csproj.CopyComplete
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\ref\NaissusEvents.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.pdb
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\obj\Debug\net5.0\NaissusEvents.genruntimeconfig.cache
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\ivan\Desktop\Faklultet\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Fax\III godina\SWE\NaissusEvents\si.22.62.naissusevents\Aplikacija\Backend\NaissusEvents\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

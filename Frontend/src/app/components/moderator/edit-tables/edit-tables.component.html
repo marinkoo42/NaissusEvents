@@ -1,0 +1,33 @@
+
+<div class="container" >
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered" style="color: white">
+                <thead>
+                    <tr>
+                        <th scope="col">Br.</th>
+                        <th scope="col">Tip stola</th>
+                        <th scope="col">Kapacitet</th>
+                        <th scope="col"></th>
+                      
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let table of tables; let i = index">
+                        <th scope="row">{{i+1}}
+                        </th>
+                        <td >{{tipToStr(table.tableType)}}</td>
+                        <td>{{table.tableCapacity}}</td>
+                        <td >
+                            <button type="button" class="btn btn-danger" (click)="obrisi(table)"> Obrisi</button>
+                        </td>
+                        
+
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

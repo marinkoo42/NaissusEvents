@@ -1,0 +1,55 @@
+
+.mat-list-item-content{
+    
+    flex-wrap: wrap;
+}
+
+
+
+.selected{
+  
+    background-color: rgb(148, 53, 18);
+    border-radius: 20px;
+    color: white;
+}
+
+.notSelected{
+    background-color: rgb(224, 60, 0);
+    border-radius: 20px;
+    color: white;
+}
+
+.notSelected:hover {
+    background-color: rgb(237, 105, 57);;
+}
+
+
+.contentbox {
+    display:grid;
+
+}
+
+.full {
+    
+    width: 20rem;
+    height: 20rem;
+}
+
+.mapa{
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+
+.program-wrap{
+    margin-top: 2rem;
+    border-color: #e95613 ;
+    border-style: solid;
+    border-radius: 20px;
+
+}
+
+
+h1, h2 ,span{
+    color: white;
+}

@@ -1,0 +1,11 @@
+th,
+td {
+    text-align: center;
+}
+
+.container {
+    
+    overflow: auto;
+    padding: 2rem 0rem;
+    background-color: rgb(237, 237, 237);
+}

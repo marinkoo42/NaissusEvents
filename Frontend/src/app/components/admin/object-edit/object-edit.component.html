@@ -1,0 +1,58 @@
+
+<form *ngIf="forma" [formGroup]="forma">
+
+                <input type="text" formControlName="name">
+                <br>
+                <input type="text" formControlName="address">
+                <br>
+                <input type="text" formControlName="hours">
+                <br>
+                <input type="text" formControlName="phone">
+                   
+                <button (click)="enableSection(forma.disabled)"> {{forma.disabled ? 'Edit': 'Save'
+                    }}</button>
+
+</form>
+
+<div>
+    <button (click)="obrisiObjekat()">Obrisi objekat</button>
+</div>
+
+<div style="color: white;">
+    <span *ngIf="hostingObject?.moderator" >
+        Moderator: {{hostingObject?.moderator?.userName}}
+        <br>
+        <button (click)="obrisiModeratora()">Obrisi</button>
+        
+    </span>
+
+
+
+    <div *ngIf="!hostingObject?.moderator" style="color: white;">
+        Dodaj moderatora
+
+    <form [formGroup]="formGroup">
+        <input type="text" class="form-control" name="searchString" placeholder="Type to search..."
+            formControlName="filter" />
+    </form>
+  <div class="tabela " style="background-color: rgb(237, 237, 237); overflow: auto;">
+    <div class="row">
+        <div class="col-12">
+    <table class="table table-bordered">
+        <tr>
+            <th>Username</th>
+        </tr>
+        <tr *ngFor="let korisnik of filtriraniKorisnici$ | async">
+            <td >{{korisnik.userName}}</td>
+            <td>
+                <button type="button" class="btn btn-success" style="background-color: green;"   (click)="dodajModeratora(korisnik)">Dodaj</button>
+            </td> 
+        </tr>
+    </table>
+    </div>
+          
+    
+    </div>
+  </div>
+    </div>
+</div>
